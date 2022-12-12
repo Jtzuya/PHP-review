@@ -82,6 +82,16 @@ if (isset($_POST['submit'])) {
 
 // Still not secure, XSS (Cross site scripting attacks) Attacks next course
 // we will just wrapping it with htmlspecialchars(), docs https://www.php.net/manual/en/function.htmlspecialchars.php
+
+
+// TODOOOOOOOOOOOOOOOOOOO
+// branch is now updated, checkout to a new branch and name it continuation_mysql
+// reference https://www.youtube.com/watch?v=N2L9KZo2szY&list=PL4cUxeGkcC9gksOX3Kd9KPo-O68ncT05o&index=23
+// push
+// PR
+// check PR
+// merge
+
 ?>
 
 <!DOCTYPE html>

@@ -1,0 +1,24 @@
+MySQL
+~ Relational database management system that runs on a server
+: Data can be related to one another, with the usage of 'foreign keys'
+: Foreign keys are used to link tables together in the database
+~ To communicate with the database from PHP(backend of this review) or other language, we use a query language called SQL
+SQA = Structured Query Language
+
+Communication between the database and the backend to dos:
+~ create (POST) a new data to the database
+~ retrieve (GET) the data from the database
+~ delete (DELETE) the data from the database
+~ update (UPDATE) the data from the database
+and more...
+
+Each record in the database is stored in a table
+~ ROWS, each row represents an individual record in the table
+~ COLUMN, each column represents a property on that record
+
+MAIN TAKEAWAYS
+~ A database can contain several tables
+~ Each table stores a particular model of data
+~ Each row represents a single record
+~ Each column represents a property on of that record
+~ We use SQL to communicate with the database from PHP (backend)

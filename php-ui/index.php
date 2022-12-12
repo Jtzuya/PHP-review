@@ -1,5 +1,20 @@
 <?php 
-    
+
+    /*
+        Options to communicate with the database
+        MYSQLi or PDO
+        ~ MySQLi and i stands for improved (code more procedural manner)
+        ~ PDO: PHP Data Objects (Preferred as PHP developer)
+    */
+
+    // connect to the databse
+    $connection = mysqli_connect('127.0.0.1', 'user_testing', ']Abm)aHvJz1@zI@s', 'test_database');
+
+    // check connection
+    if(!$connection) {
+        echo 'Connection error ' . mysqli_connect_error()
+    }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
