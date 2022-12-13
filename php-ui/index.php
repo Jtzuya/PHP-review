@@ -1,3 +1,4 @@
+<?php include'../env.php'; ?>
 <?php 
 
     /*
@@ -8,7 +9,7 @@
     */
 
     // connect to the databse
-    $connection = mysqli_connect('127.0.0.1', 'root', 'hygienix', 'test_database');
+    $connection = mysqli_connect($DB_HOST, $DB_USR, $DB_PASS, $DB_TABLE);
 
     // check connection
     if(!$connection) {
