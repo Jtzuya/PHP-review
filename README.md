@@ -14,10 +14,11 @@
 - Show database data to the user(s)
 
 #### MVC
+```php
 M - Model
 V - View
 C - Controller
-
+```
 
 #### Visibility & Inheritance   
 - private: Can only be accessed inside the class
