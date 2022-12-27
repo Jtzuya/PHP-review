@@ -25,6 +25,7 @@ C - Controller
 - protected: Property can be only be accessed in the same class (like private). However if any classes inherits any sort of any properties/methods from this class using **Extends** we can also use that inside other class.
 
 ### Folder Structure + Naming
+```html
 - Main Folder
             - classes(folder)
                             - properties.class.php
@@ -33,3 +34,4 @@ C - Controller
                             - properties.inc.php
                             - visibility.inc.php
             - index.php
+```
